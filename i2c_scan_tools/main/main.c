@@ -52,7 +52,7 @@ void app_main() {
   
 /* !Instantiates i2c_dev*/
 
- struct i2c_dev_t i2c_dev = {
+ i2c_dev_t i2c_dev = {
    
    .write_fptr = i2c_write_user, /*!< Function pointers*/
    .NUM_DEV = 2                  /*!< Number device*/

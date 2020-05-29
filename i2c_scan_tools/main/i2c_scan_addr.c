@@ -27,7 +27,7 @@
  *
  */
 
-void i2c_scan(struct i2c_dev_t *dev) {
+void i2c_scan(i2c_dev_t *dev) {
   
   uint8_t address;
   int8_t ret, count = 0;

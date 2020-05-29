@@ -20,13 +20,13 @@
 /*************************************************** Structure ************************************************/
 
 /*! Structure i2c_dev_t*/
-struct i2c_dev_t {
+typedef struct {
   
   i2c_scan_fptr_t write_fptr;
   int8_t NUM_DEV;
   
   
-};
+}i2c_dev_t;
 
 /*************************************************** Function prototype  ******************************************/
 
@@ -53,7 +53,7 @@ typedef int8_t (*i2c_scan_fptr_t)(uint8_t dev_addr);
  *
  */
 
-void i2c_scan(struct i2c_dev_t *dev);
+void i2c_scan(i2c_dev_t *dev);
 
 
 #endif
