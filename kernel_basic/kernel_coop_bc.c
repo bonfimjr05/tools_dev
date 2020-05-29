@@ -1,3 +1,14 @@
+/*
+ *
+ *@file        kernel_coop_bc.h
+ *@Author      Paulo Bonfim Jr
+ *@date        29/05/2020
+ *@version     1.0.0
+ *
+ *@brief kernel cooperativo (não preemptivo)
+ */
+
+
 #include "kernel_coop.h"
 
 
